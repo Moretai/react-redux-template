@@ -1,0 +1,5 @@
+{
+  "ENV": "pre",
+  "GATEWAY_API_URL": "http://pre-api.szjys.com",
+  "WEBSOCKET_API_URL": "ws://pre-ws.szjys.com"
+}

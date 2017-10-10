@@ -1,0 +1,11 @@
+node_modules
+static*
+.eslintcache
+coverage
+.nyc_output
+.DS_Store
+.idea
+npm-debug.log*
+yarn-error.log*
+tools/csvInput/*
+tools/csvOutput/*

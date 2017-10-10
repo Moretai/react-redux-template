@@ -1,0 +1,53 @@
+{
+  "presets": [
+    [
+      "latest",
+      {
+        "es2015": {
+          "loose": true,
+          "modules": false
+        }
+      }
+    ],
+    "react",
+    "react-optimize",
+    "stage-0",
+    "stage-2"
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    "syntax-dynamic-import",
+    "transform-runtime",
+    "transform-decorators-legacy",
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": "css"
+      }
+    ],
+    [
+      "react-intl",
+      {
+        "messagesDir": "./static/messages/"
+      }
+    ]
+  ],
+  "env": {
+    "test": {
+      "presets": [
+        "es2015"
+      ],
+      "plugins": [
+        [
+          "module-resolver",
+          {
+            "root": [
+              "./shared"
+            ]
+          }
+        ]
+      ]
+    }
+  }
+}
