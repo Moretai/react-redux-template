@@ -12,7 +12,7 @@ export default class App extends Component {
     return (
       <IntlProvider locale="en">
         <div className={style.wrap}>
-          App
+          App Hellow WORLD
           {this.props.children}
         </div>
       </IntlProvider>
